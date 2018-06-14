@@ -4,25 +4,7 @@
   <artifactId>test</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-  <profiles>
-    <profile>
-      <build>
-        <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>2.9</version>
-          <configuration>
-            <suiteXmlFiles>
-	<suiteXmlFile>testng_profile.xml</suiteXmlFile>
-            </suiteXmlFiles>
-          </configuration>
-        </plugin>
-      </plugins>
-      </build>
-     </profile>
-   </profiles>
-  
+    
     <dependencies>
     
     <!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
@@ -140,74 +122,26 @@
   		</dependency>
   	</dependencies>
   </dependencyManagement>
-  
-  <build>
-  <pluginManagement>
-    <plugins>
-    
-   <plugin>
-		<groupId>org.apache.maven.plugins</groupId>
-		<artifactId>maven-surefire-plugin</artifactId>
-		
-	</plugin>
-    
-  <plugin>
-  <groupId>org.apache.maven.plugins</groupId>
-  <artifactId>maven-jar-plugin</artifactId>
-  <version>2.6</version>
-  <executions>
-    <execution>
-      <goals>
-        <goal>test-jar</goal>
-      </goals>
-    </execution>
-  </executions>
-</plugin>
+
+<profiles>
+    <profile>
+	<id>t1</id>
+      <build>
+        <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>2.9</version>
+          <configuration>
+            <suiteXmlFiles>
+	<suiteXmlFile>testng_profile.xml</suiteXmlFile>
+            </suiteXmlFiles>
+          </configuration>
+        </plugin>
+      </plugins>
+      </build>
+     </profile>
+   </profiles>
 
   
-  <plugin>
-  <groupId>org.apache.maven.plugins</groupId>
-  <artifactId>maven-dependency-plugin</artifactId>
-  <version>2.10</version>
-  <executions>
-    <execution>
-      <id>copy-dependencies</id>
-      <phase>package</phase>
-      <goals>
-        <goal>copy-dependencies</goal>
-      </goals>
-  <configuration>
-        <outputDirectory>${project.build.directory}/dependency-jars/</outputDirectory>
-      </configuration>
-  
-    </execution>
-  </executions>
-</plugin>
-
-
-
-
-<plugin>
-  <artifactId>maven-assembly-plugin</artifactId>
-  <version>2.5.4</version>
-  <executions>
-    <execution>
-      <phase>package</phase>
-      <goals>
-        <goal>single</goal>
-      </goals>
-  <configuration>
-        <finalName>zip-with-dependencies</finalName>
-        <appendAssemblyId>false</appendAssemblyId>
-        <descriptors>
-          <descriptor>src/main/assembly/zip.xml</descriptor>
-        </descriptors>
-      </configuration>
-          </execution>
-  </executions>
-</plugin>
-    </plugins>
-    </pluginManagement>
-  </build>
-  
-</project>
+ </project>
