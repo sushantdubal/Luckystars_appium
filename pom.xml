@@ -16,6 +16,7 @@
           <configuration>
             <suiteXmlFiles>
               <suiteXmlFile>/Users/rahul/Luckystars_appium/testng_onboarding.xml</suiteXmlFile>
+	<suiteXmlFile>testng_profile.xml</suiteXmlFile>
             </suiteXmlFiles>
           </configuration>
         </plugin>
