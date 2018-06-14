@@ -15,17 +15,7 @@
           <version>2.8.1</version>
           <configuration>
             <suiteXmlFiles>
-              <suiteXmlFile>testng_onboarding.xml</suiteXmlFile>
-              <suiteXmlFile>testng_profile.xml</suiteXmlFile>
-              <suiteXmlFile>testng_earn.xml</suiteXmlFile>
-              <suiteXmlFile>testng_coins.xml</suiteXmlFile>
-              <suiteXmlFile>testng_home.xml</suiteXmlFile>
-              <suiteXmlFile>testng_stars.xml</suiteXmlFile>
-              <suiteXmlFile>testng_winners.xml</suiteXmlFile>
-              <suiteXmlFile>testng_bidReport.xml</suiteXmlFile>
-              <suiteXmlFile>testng_drawReport.xml</suiteXmlFile>
-              <suiteXmlFile>testng_quiz.xml</suiteXmlFile>
-              <suiteXmlFile>testng_sportsQ.xml</suiteXmlFile>
+              <suiteXmlFile>/Users/rahul/Luckystars_appium/testng_onboarding.xml</suiteXmlFile>
             </suiteXmlFiles>
           </configuration>
         </plugin>
