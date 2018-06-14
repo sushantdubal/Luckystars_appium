@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Coins_Suite">
+  <test name="coins.TC001_buy_coins_navigation">
+    <classes>
+      <class name="coins.TC001_buy_coins_navigation"/>
+    </classes>
+  </test> <!-- Coins_Test -->
+  
+   <test name="coins.TC002_buy_coins">
+    <classes>
+     <class name="coins.TC002_buy_coins"/>
+    </classes>
+  </test> <!-- Coins_Test -->
+  
+  
+</suite> <!-- Coins_Suite -->

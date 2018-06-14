@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<!--<test name="bid.TC001_SingleBid">
+		<classes>
+			<class name="Bid.TC001_SingleBid" />
+		</classes>
+	</test>
+	
+	  <test name="bid.TC002_bidRange">
+		<classes>
+			<class name="Bid.TC002_bidRange" />
+		</classes>
+	</test> 
+	
+	 <test name="bid.TC003_inSufficientStars">
+		<classes>
+			<class name="Bid.TC003_inSufficientStars" />
+		</classes>
+	</test>-->
+	
+<!--	 <test name="bid.TC004_yourBids">
+		<classes>
+			<class name="Bid.TC004_yourBids" />
+		</classes>
+	</test>-->
+	
+	<test name="bid.TC005_filter_AllBids">
+		<classes>
+			<class name="bid.TC005_filter_AllBids" />
+		</classes>
+	</test> 
+	
+		<test name="bid.TC006_filter_UniqueBids">
+		<classes>
+			<class name="bid.TTC006_filter_UniqueBids" />
+		</classes>
+	</test> 
+	
+	<test name="bid.TC007_filter_UniqueTooHigh">
+		<classes>
+			<class name="bid.TC007_filter_UniqueTooHigh" />
+		</classes>
+	</test> 
+	
+		<test name="bid.TC008_filter_NotUnique">
+		<classes>
+			<class name="bid.TC008_filter_NotUnique" />
+		</classes>
+	</test> 
+	
+		<test name="bid.TC009_filter_missedBids">
+		<classes>
+			<class name="bid.TC009_filter_missedBids" />
+		</classes>
+	</test> 
+	
+ </suite> <!-- Suite -->

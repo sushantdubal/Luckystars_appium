@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Home_Suite">
+
+	<test name="home.TC001_profile_navigation">
+		<classes>
+			<class name="home.TC001_profile_navigation" />
+		</classes>
+	</test>
+
+
+	<test name="home.TC002_winners_navigation">
+		<classes>
+			<class name="home.TC002_winners_navigation" />
+		</classes>
+	</test>
+
+	<test name="home.TC003_play_navigation">
+		<classes>
+			<class name="home.TC003_play_navigation" />
+		</classes>
+	</test>
+
+
+	<test name="home.TC004_earn_navigation">
+		<classes>
+			<class name="home.TC004_earn_navigation" />
+		</classes>
+	</test>
+
+
+	<test name="home.TC005_buy_coins_navigation">
+		<classes>
+			<class name="home.TC005_buy_coins_navigation" />
+		</classes>
+	</test>
+
+	<test name="home.TC006_stars_navigation">
+		<classes>
+			<class name="home.TC006_stars_navigation" />
+		</classes>
+	</test>
+
+
+	<test name="home.TC007_edit_profile_pic_navigation">
+		<classes>
+			<class name="home.TC007_edit_profile_pic_navigation" />
+		</classes>
+	</test>
+
+
+	<test name="home.TC008_coins_navigation">
+		<classes>
+			<class name="home.TC008_coins_navigation" />
+		</classes>
+	</test>
+</suite> <!-- Home_Suite -->
+
+
+	
+	
+	

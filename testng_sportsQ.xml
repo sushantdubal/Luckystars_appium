@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+
+<test name="sportsQ.TC001_particpatesportsQ">
+	<classes>
+		<class name="sportsQ.TC001_particpatesportsQ" />
+	</classes>
+</test>
+
+<test name="sportsQ.TC002_insufficientCoins">
+	<classes>
+		<class name="sportsQ.TC002_insufficientCoins" />
+	</classes>
+</test>
+
+<test name="sportsQ.TC003_poolJoined">
+	<classes>
+		<class name="sportsQ.TC003_poolJoined" />
+	</classes>
+</test>
+
+<test name="sportsQ.TC004_partcipatedEntries">
+	<classes>
+		<class name="sportsQ.TC004_partcipatedEntries" />
+	</classes>
+</test>
+
+<test name="sportsQ.TC005_sportsQEditEntries">
+	<classes>
+		<class name="sportsQ.TC005_sportsQEditEntries" />
+	</classes>
+</test>
+
+<test name="sportsQ.TC006_profilesportsQNavigation">
+	<classes>
+		<class name="sportsQ.TC006_profilesportsQNavigation" />
+	</classes>
+</test>
+
+<test name="sportsQ.TC007_refundedText">
+	<classes>
+		<class name="sportsQ.TC007_refundedText" />
+	</classes>
+</test>
+</suite> <!-- Suite -->
+	

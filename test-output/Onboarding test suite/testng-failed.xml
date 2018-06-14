@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Onboarding test suite]">
+  <test name="onboarding.TC001_first_intro">
+    <classes>
+      <class name="onboarding.TC001_first_intro"/>
+    </classes>
+  </test> <!-- onboarding.TC001_first_intro -->
+  <test name="onboarding.TC002_skip_intro_button">
+    <classes>
+      <class name="onboarding.TC002_skip_intro_button"/>
+    </classes>
+  </test> <!-- onboarding.TC002_skip_intro_button -->
+  <test name="onboarding.TC003_second_intro">
+    <classes>
+      <class name="onboarding.TC003_second_intro"/>
+    </classes>
+  </test> <!-- onboarding.TC003_second_intro -->
+  <test name="onboarding.TC004_third_intro">
+    <classes>
+      <class name="onboarding.TC004_third_intro"/>
+    </classes>
+  </test> <!-- onboarding.TC004_third_intro -->
+  <test name="onboarding.TC005_get_started_button">
+    <classes>
+      <class name="onboarding.TC005_get_started_button"/>
+    </classes>
+  </test> <!-- onboarding.TC005_get_started_button -->
+  <test name="onboarding.TC006_age_checkbox">
+    <classes>
+      <class name="onboarding.TC006_age_checkbox"/>
+    </classes>
+  </test> <!-- onboarding.TC006_age_checkbox -->
+  <test name="onboarding.TC007_continue_button">
+    <classes>
+      <class name="onboarding.TC007_continue_button"/>
+    </classes>
+  </test> <!-- onboarding.TC007_continue_button -->
+  <test name="onboarding.TC008_invalid_mobile_number_format">
+    <classes>
+      <class name="onboarding.TC008_invalid_mobile_number_format"/>
+    </classes>
+  </test> <!-- onboarding.TC008_invalid_mobile_number_format -->
+  <test name="onboarding.TC009_valid_mobile_number_format">
+    <classes>
+      <class name="onboarding.TC009_valid_mobile_number_format"/>
+    </classes>
+  </test> <!-- onboarding.TC009_valid_mobile_number_format -->
+  <test name="onboarding.TC010_edit_button">
+    <classes>
+      <class name="onboarding.TC010_edit_button"/>
+    </classes>
+  </test> <!-- onboarding.TC010_edit_button -->
+  <test name="onboarding.TC011_confirm_button">
+    <classes>
+      <class name="onboarding.TC011_confirm_button"/>
+    </classes>
+  </test> <!-- onboarding.TC011_confirm_button -->
+  <test name="onboarding.TC012_resend_button_appears">
+    <classes>
+      <class name="onboarding.TC012_resend_button_appears"/>
+    </classes>
+  </test> <!-- onboarding.TC012_resend_button_appears -->
+  <test name="onboarding.TC013_resend_button_click">
+    <classes>
+      <class name="onboarding.TC013_resend_button_click"/>
+    </classes>
+  </test> <!-- onboarding.TC013_resend_button_click -->
+  <test name="onboarding.TC014_call_me_button_appeare">
+    <classes>
+      <class name="onboarding.TC014_call_me_button_appeare"/>
+    </classes>
+  </test> <!-- onboarding.TC014_call_me_button_appeare -->
+  <test name="onboarding.TC015_send_query">
+    <classes>
+      <class name="onboarding.TC015_send_query"/>
+    </classes>
+  </test> <!-- onboarding.TC015_send_query -->
+  <test name="onboarding.TC016_invalid_OTP_alert_pop_up">
+    <classes>
+      <class name="onboarding.TC016_invalid_OTP_alert_pop_up"/>
+    </classes>
+  </test> <!-- onboarding.TC016_invalid_OTP_alert_pop_up -->
+  <test name="onboarding.TC017_valid_OTP">
+    <classes>
+      <class name="onboarding.TC017_valid_OTP"/>
+    </classes>
+  </test> <!-- onboarding.TC017_valid_OTP -->
+  <test name="onboarding.TC018_change_number_button">
+    <classes>
+      <class name="onboarding.TC018_change_number_button"/>
+    </classes>
+  </test> <!-- onboarding.TC018_change_number_button -->
+  <test name="onboarding.TC019_invalid_first_name">
+    <classes>
+      <class name="onboarding.TC019_invalid_first_name"/>
+    </classes>
+  </test> <!-- onboarding.TC019_invalid_first_name -->
+  <test name="onboarding.TC020_invalid_last_name">
+    <classes>
+      <class name="onboarding.TC020_invalid_last_name"/>
+    </classes>
+  </test> <!-- onboarding.TC020_invalid_last_name -->
+  <test name="onboarding.TC021_invalid_referral_code">
+    <classes>
+      <class name="onboarding.TC021_invalid_referral_code"/>
+    </classes>
+  </test> <!-- onboarding.TC021_invalid_referral_code -->
+  <test name="onboarding.TC022_register">
+    <classes>
+      <class name="onboarding.TC022_register"/>
+    </classes>
+  </test> <!-- onboarding.TC022_register -->
+  <test name="onboarding.TC023_sign_in">
+    <classes>
+      <class name="onboarding.TC023_sign_in"/>
+    </classes>
+  </test> <!-- onboarding.TC023_sign_in -->
+  <test name="onboarding.TC024_coins_on_registration">
+    <classes>
+      <class name="onboarding.TC024_coins_on_registration"/>
+    </classes>
+  </test> <!-- onboarding.TC024_coins_on_registration -->
+  <test name="onboarding.TC013_resend_button_click(failed)">
+    <classes>
+      <class name="onboarding.TC001_first_intro">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC001_first_intro -->
+      <class name="onboarding.TC005_get_started_button">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC005_get_started_button -->
+      <class name="onboarding.TC021_invalid_referral_code">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC021_invalid_referral_code -->
+      <class name="onboarding.TC004_third_intro">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC004_third_intro -->
+      <class name="onboarding.TC024_coins_on_registration">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC024_coins_on_registration -->
+      <class name="onboarding.TC010_edit_button">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC010_edit_button -->
+      <class name="onboarding.TC011_confirm_button">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC011_confirm_button -->
+      <class name="onboarding.TC009_valid_mobile_number_format">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC009_valid_mobile_number_format -->
+      <class name="onboarding.TC018_change_number_button">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC018_change_number_button -->
+      <class name="onboarding.TC023_sign_in">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC023_sign_in -->
+      <class name="onboarding.TC007_continue_button">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC007_continue_button -->
+      <class name="onboarding.TC013_resend_button_click">
+        <methods>
+          <include name="setUp"/>
+          <include name="resend_button_click_Test"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC013_resend_button_click -->
+      <class name="onboarding.TC008_invalid_mobile_number_format">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC008_invalid_mobile_number_format -->
+      <class name="onboarding.TC014_call_me_button_appeare">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC014_call_me_button_appeare -->
+      <class name="onboarding.TC020_invalid_last_name">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC020_invalid_last_name -->
+      <class name="onboarding.TC022_register">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC022_register -->
+      <class name="onboarding.TC017_valid_OTP">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC017_valid_OTP -->
+      <class name="onboarding.TC015_send_query">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC015_send_query -->
+      <class name="onboarding.TC003_second_intro">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC003_second_intro -->
+      <class name="onboarding.TC002_skip_intro_button">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC002_skip_intro_button -->
+      <class name="onboarding.TC012_resend_button_appears">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC012_resend_button_appears -->
+      <class name="onboarding.TC016_invalid_OTP_alert_pop_up">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC016_invalid_OTP_alert_pop_up -->
+      <class name="onboarding.TC019_invalid_first_name">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC019_invalid_first_name -->
+      <class name="onboarding.TC006_age_checkbox">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC006_age_checkbox -->
+    </classes>
+  </test> <!-- onboarding.TC013_resend_button_click(failed) -->
+  <test name="onboarding.TC014_call_me_button_appeare(failed)">
+    <classes>
+      <class name="onboarding.TC001_first_intro">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC001_first_intro -->
+      <class name="onboarding.TC005_get_started_button">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC005_get_started_button -->
+      <class name="onboarding.TC021_invalid_referral_code">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC021_invalid_referral_code -->
+      <class name="onboarding.TC004_third_intro">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC004_third_intro -->
+      <class name="onboarding.TC024_coins_on_registration">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC024_coins_on_registration -->
+      <class name="onboarding.TC010_edit_button">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC010_edit_button -->
+      <class name="onboarding.TC011_confirm_button">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC011_confirm_button -->
+      <class name="onboarding.TC009_valid_mobile_number_format">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC009_valid_mobile_number_format -->
+      <class name="onboarding.TC018_change_number_button">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC018_change_number_button -->
+      <class name="onboarding.TC023_sign_in">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC023_sign_in -->
+      <class name="onboarding.TC007_continue_button">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC007_continue_button -->
+      <class name="onboarding.TC008_invalid_mobile_number_format">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC008_invalid_mobile_number_format -->
+      <class name="onboarding.TC013_resend_button_click">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC013_resend_button_click -->
+      <class name="onboarding.TC014_call_me_button_appeare">
+        <methods>
+          <include name="resend_button_click_Test"/>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC014_call_me_button_appeare -->
+      <class name="onboarding.TC020_invalid_last_name">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC020_invalid_last_name -->
+      <class name="onboarding.TC022_register">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC022_register -->
+      <class name="onboarding.TC017_valid_OTP">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC017_valid_OTP -->
+      <class name="onboarding.TC015_send_query">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC015_send_query -->
+      <class name="onboarding.TC003_second_intro">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC003_second_intro -->
+      <class name="onboarding.TC002_skip_intro_button">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC002_skip_intro_button -->
+      <class name="onboarding.TC012_resend_button_appears">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC012_resend_button_appears -->
+      <class name="onboarding.TC016_invalid_OTP_alert_pop_up">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC016_invalid_OTP_alert_pop_up -->
+      <class name="onboarding.TC019_invalid_first_name">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC019_invalid_first_name -->
+      <class name="onboarding.TC006_age_checkbox">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC006_age_checkbox -->
+    </classes>
+  </test> <!-- onboarding.TC014_call_me_button_appeare(failed) -->
+  <test name="onboarding.TC015_send_query(failed)">
+    <classes>
+      <class name="onboarding.TC001_first_intro">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC001_first_intro -->
+      <class name="onboarding.TC005_get_started_button">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC005_get_started_button -->
+      <class name="onboarding.TC021_invalid_referral_code">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC021_invalid_referral_code -->
+      <class name="onboarding.TC004_third_intro">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC004_third_intro -->
+      <class name="onboarding.TC024_coins_on_registration">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC024_coins_on_registration -->
+      <class name="onboarding.TC010_edit_button">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC010_edit_button -->
+      <class name="onboarding.TC011_confirm_button">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC011_confirm_button -->
+      <class name="onboarding.TC009_valid_mobile_number_format">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC009_valid_mobile_number_format -->
+      <class name="onboarding.TC018_change_number_button">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC018_change_number_button -->
+      <class name="onboarding.TC023_sign_in">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC023_sign_in -->
+      <class name="onboarding.TC007_continue_button">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC007_continue_button -->
+      <class name="onboarding.TC008_invalid_mobile_number_format">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC008_invalid_mobile_number_format -->
+      <class name="onboarding.TC013_resend_button_click">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC013_resend_button_click -->
+      <class name="onboarding.TC014_call_me_button_appeare">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC014_call_me_button_appeare -->
+      <class name="onboarding.TC020_invalid_last_name">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC020_invalid_last_name -->
+      <class name="onboarding.TC022_register">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC022_register -->
+      <class name="onboarding.TC015_send_query">
+        <methods>
+          <include name="quit"/>
+          <include name="resend_button_click_Test"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC015_send_query -->
+      <class name="onboarding.TC017_valid_OTP">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC017_valid_OTP -->
+      <class name="onboarding.TC003_second_intro">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC003_second_intro -->
+      <class name="onboarding.TC002_skip_intro_button">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC002_skip_intro_button -->
+      <class name="onboarding.TC012_resend_button_appears">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC012_resend_button_appears -->
+      <class name="onboarding.TC016_invalid_OTP_alert_pop_up">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC016_invalid_OTP_alert_pop_up -->
+      <class name="onboarding.TC019_invalid_first_name">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC019_invalid_first_name -->
+      <class name="onboarding.TC006_age_checkbox">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC006_age_checkbox -->
+    </classes>
+  </test> <!-- onboarding.TC015_send_query(failed) -->
+  <test name="onboarding.TC022_register(failed)">
+    <classes>
+      <class name="onboarding.TC001_first_intro">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC001_first_intro -->
+      <class name="onboarding.TC005_get_started_button">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC005_get_started_button -->
+      <class name="onboarding.TC021_invalid_referral_code">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC021_invalid_referral_code -->
+      <class name="onboarding.TC004_third_intro">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC004_third_intro -->
+      <class name="onboarding.TC024_coins_on_registration">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC024_coins_on_registration -->
+      <class name="onboarding.TC010_edit_button">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC010_edit_button -->
+      <class name="onboarding.TC011_confirm_button">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC011_confirm_button -->
+      <class name="onboarding.TC009_valid_mobile_number_format">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC009_valid_mobile_number_format -->
+      <class name="onboarding.TC018_change_number_button">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC018_change_number_button -->
+      <class name="onboarding.TC023_sign_in">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC023_sign_in -->
+      <class name="onboarding.TC007_continue_button">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC007_continue_button -->
+      <class name="onboarding.TC008_invalid_mobile_number_format">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC008_invalid_mobile_number_format -->
+      <class name="onboarding.TC013_resend_button_click">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC013_resend_button_click -->
+      <class name="onboarding.TC014_call_me_button_appeare">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC014_call_me_button_appeare -->
+      <class name="onboarding.TC020_invalid_last_name">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC020_invalid_last_name -->
+      <class name="onboarding.TC022_register">
+        <methods>
+          <include name="setUp"/>
+          <include name="register_test"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC022_register -->
+      <class name="onboarding.TC017_valid_OTP">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC017_valid_OTP -->
+      <class name="onboarding.TC015_send_query">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC015_send_query -->
+      <class name="onboarding.TC003_second_intro">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC003_second_intro -->
+      <class name="onboarding.TC002_skip_intro_button">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC002_skip_intro_button -->
+      <class name="onboarding.TC012_resend_button_appears">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- onboarding.TC012_resend_button_appears -->
+      <class name="onboarding.TC016_invalid_OTP_alert_pop_up">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC016_invalid_OTP_alert_pop_up -->
+      <class name="onboarding.TC019_invalid_first_name">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC019_invalid_first_name -->
+      <class name="onboarding.TC006_age_checkbox">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- onboarding.TC006_age_checkbox -->
+    </classes>
+  </test> <!-- onboarding.TC022_register(failed) -->
+</suite> <!-- Failed suite [Onboarding test suite] -->

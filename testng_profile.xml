@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Profile_Suite">
+	<test name="profile.TC001_profile_navigation">
+		<classes>
+			<class name="profile.TC001_profile_navigation" />
+		</classes>
+	</test>
+
+	<test name="profile.TC002_profile_edit_button">
+		<classes>
+			<class name="profile.TC002_profile_edit_button" />
+		</classes>
+	</test>
+
+	<test name="profile.TC003_profile_detail_luckycharms">
+		<classes>
+			<class name="profile.TC003_profile_detail_luckycharms" />
+		</classes>
+	</test>
+
+
+	<test name="profile.TC004_profile_detail_camera">
+		<classes>
+			<class name="profile.TC004_profile_detail_camera" />
+		</classes>
+	</test>
+
+
+	<test name="profile.TC005_profile_detail_gallery">
+		<classes>
+			<class name="profile.TC005_profile_detail_gallery" />
+		</classes>
+	</test>
+
+	<test name="profile.TC006_profile_detail_valid_first_name">
+		<classes>
+			<class name="profile.TC006_profile_detail_valid_first_name" />
+		</classes>
+	</test>
+
+
+	<test name="profile.TC007_profile_detail_valid_last_name">
+		<classes>
+			<class name="profile.TC007_profile_detail_valid_last_name" />
+		</classes>
+	</test>
+
+
+	<test name="profile.TC008_profile_valid_birthdate">
+		<classes>
+			<class name="profile.TC008_profile_valid_birthdate" />
+		</classes>
+	</test>
+
+
+	<test name="profile.TC009_profile_detail_valid_pincode">
+		<classes>
+			<class name="profile.TC009_profile_detail_valid_pincode" />
+		</classes>
+	</test>
+
+	<test name="profile.TC010_profile_detail_valid_email_id">
+		<classes>
+			<class name="profile.TC010_profile_detail_valid_email_id" />
+		</classes>
+	</test>
+
+	<test name="profile.TC011_profile_detail_edit_gender_feamle">
+		<classes>
+			<class name="profile.TC011_profile_detail_edit_gender_feamle" />
+		</classes>
+	</test>
+
+	<test name="profile.TC012_profile_detail_edit_gender_male">
+		<classes>
+			<class name="profile.TC012_profile_detail_edit_gender_male" />
+		</classes>
+	</test>
+
+	<test name="profile.TC013_profile_detail_marital_status_married">
+		<classes>
+			<class name="profile.TC013_profile_detail_marital_status_married" />
+		</classes>
+	</test>
+
+
+	<test name="profile.TC014_profile_detail_education">
+		<classes>
+			<class name="profile.TC014_profile_detail_education" />
+		</classes>
+	</test>
+
+	<test name="profile.TC015_profile_detail_occupation">
+		<classes>
+			<class name="profile.TC015_profile_detail_occupation" />
+		</classes>
+	</test>
+
+	<test name="profile.TC016_profile_detail_personal_vehicle">
+		<classes>
+			<class name="profile.TC016_profile_detail_personal_vehicle" />
+		</classes>
+	</test>
+
+	<test name="profile.TC017_profile_quizzes">
+		<classes>
+			<class name="profile.TC017_profile_quizzes" />
+		</classes>
+	</test>
+
+
+	<test name="profile.TC018_profile_bids">
+		<classes>
+			<class name="profile.TC018_profile_bids" />
+		</classes>
+	</test>
+
+	<test name="profile.TC019_profile_detail_marital_status_single">
+		<classes>
+			<class name="profile.TC019_profile_detail_marital_status_single" />
+		</classes>
+	</test>
+
+	<test name="profile.TC020_profile_sportsq">
+		<classes>
+			<class name="profile.TC020_profile_sportsq" />
+		</classes>
+	</test>
+
+	<test name="profile.TC021_profile_How_To_Videos">
+		<classes>
+			<class name="profile.TC021_profile_How_To_Videos" />
+		</classes>
+	</test>
+
+	<test name="profile.TC022_profile_notifications_setting">
+		<classes>
+			<class name="profile.TC022_profile_notifications_setting" />
+		</classes>
+	</test>
+
+	<test name="profile.TC023_profile_faq">
+		<classes>
+			<class name="profile.TC023_profile_faq" />
+		</classes>
+	</test>
+
+
+	<test name="profile.TC024_profile_feedback">
+		<classes>
+			<class name="profile.TC024_profile_feedback" />
+		</classes>
+	</test>
+
+
+	<test name="profile.TC025_profile_legal">
+		<classes>
+			<class name="profile.TC025_profile_legal" />
+		</classes>
+	</test>
+
+	<!-- profile_test -->
+</suite> <!-- Profile_Suite -->

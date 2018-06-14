@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Earn_Suite">
+  
+    <test name="earn.TC001_earn_navigation">
+		<classes>
+			<class name="earn.TC001_earn_navigation"/>
+		</classes>
+	</test>
+    
+    <test name="earn.TC002_share_now">
+		<classes>
+			<class name="earn.TC002_share_now"/>
+		</classes>
+	</test>
+    
+     <test name="earn.TC003_social_links_exists">
+		<classes>
+			<class name="earn.TC003_social_links_exists"/> 
+		</classes>
+	</test>
+    
+</suite> <!-- Earn_Suite -->
+
+     
+     
+   

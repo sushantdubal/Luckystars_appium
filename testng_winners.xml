@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Winners_Suite">
+
+	<test name="winners.TC001_quizzes_navigation">
+		<classes>
+			<class name="winners.TC001_quizzes_navigation" />
+		</classes>
+	</test>
+
+	<test name="winners.TC002_quizzes_detail_navigation">
+		<classes>
+			<class name="winners.TC002_quizzes_detail_navigation" />
+		</classes>
+	</test>
+
+	<test name="winners.TC003_bids_navigation">
+		<classes>
+			<class name="winners.TC003_bids_navigation" />
+		</classes>
+	</test>
+
+
+	<test name="winners.TC004_bids_detail_navigation">
+		<classes>
+			<class name="winners.TC004_bids_detail_navigation" />
+		</classes>
+	</test>
+
+	<test name="winners.TC005_sportsq_navigation">
+		<classes>
+			<class name="winners.TC005_sportsq_navigation" />
+		</classes>
+	</test>
+
+
+	<test name="winners.TC006_sportsq_detail_navigation">
+		<classes>
+			<class name="winners.TC006_sportsq_detail_navigation" />
+		</classes>
+	</test>
+
+
+</suite> <!-- Winners_Suite -->
+
+

@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Profile_Suite]">
+  <test name="profile.TC001_profile_navigation">
+    <classes>
+      <class name="profile.TC001_profile_navigation"/>
+    </classes>
+  </test> <!-- profile.TC001_profile_navigation -->
+  <test name="profile.TC002_profile_edit_button">
+    <classes>
+      <class name="profile.TC002_profile_edit_button"/>
+    </classes>
+  </test> <!-- profile.TC002_profile_edit_button -->
+  <test name="profile.TC003_profile_detail_luckycharms">
+    <classes>
+      <class name="profile.TC003_profile_detail_luckycharms"/>
+    </classes>
+  </test> <!-- profile.TC003_profile_detail_luckycharms -->
+  <test name="profile.TC004_profile_detail_camera">
+    <classes>
+      <class name="profile.TC004_profile_detail_camera"/>
+    </classes>
+  </test> <!-- profile.TC004_profile_detail_camera -->
+  <test name="profile.TC005_profile_detail_gallery">
+    <classes>
+      <class name="profile.TC005_profile_detail_gallery"/>
+    </classes>
+  </test> <!-- profile.TC005_profile_detail_gallery -->
+  <test name="profile.TC006_profile_detail_valid_first_name">
+    <classes>
+      <class name="profile.TC006_profile_detail_valid_first_name"/>
+    </classes>
+  </test> <!-- profile.TC006_profile_detail_valid_first_name -->
+  <test name="profile.TC007_profile_detail_valid_last_name">
+    <classes>
+      <class name="profile.TC007_profile_detail_valid_last_name"/>
+    </classes>
+  </test> <!-- profile.TC007_profile_detail_valid_last_name -->
+  <test name="profile.TC008_profile_valid_birthdate">
+    <classes>
+      <class name="profile.TC008_profile_valid_birthdate"/>
+    </classes>
+  </test> <!-- profile.TC008_profile_valid_birthdate -->
+  <test name="profile.TC009_profile_detail_valid_pincode">
+    <classes>
+      <class name="profile.TC009_profile_detail_valid_pincode"/>
+    </classes>
+  </test> <!-- profile.TC009_profile_detail_valid_pincode -->
+  <test name="profile.TC010_profile_detail_valid_email_id">
+    <classes>
+      <class name="profile.TC010_profile_detail_valid_email_id"/>
+    </classes>
+  </test> <!-- profile.TC010_profile_detail_valid_email_id -->
+  <test name="profile.TC011_profile_detail_edit_gender_feamle">
+    <classes>
+      <class name="profile.TC011_profile_detail_edit_gender_feamle"/>
+    </classes>
+  </test> <!-- profile.TC011_profile_detail_edit_gender_feamle -->
+  <test name="profile.TC012_profile_detail_edit_gender_male">
+    <classes>
+      <class name="profile.TC012_profile_detail_edit_gender_male"/>
+    </classes>
+  </test> <!-- profile.TC012_profile_detail_edit_gender_male -->
+  <test name="profile.TC013_profile_detail_marital_status_married">
+    <classes>
+      <class name="profile.TC013_profile_detail_marital_status_married"/>
+    </classes>
+  </test> <!-- profile.TC013_profile_detail_marital_status_married -->
+  <test name="profile.TC014_profile_detail_education">
+    <classes>
+      <class name="profile.TC014_profile_detail_education"/>
+    </classes>
+  </test> <!-- profile.TC014_profile_detail_education -->
+  <test name="profile.TC015_profile_detail_occupation">
+    <classes>
+      <class name="profile.TC015_profile_detail_occupation"/>
+    </classes>
+  </test> <!-- profile.TC015_profile_detail_occupation -->
+  <test name="profile.TC016_profile_detail_personal_vehicle">
+    <classes>
+      <class name="profile.TC016_profile_detail_personal_vehicle"/>
+    </classes>
+  </test> <!-- profile.TC016_profile_detail_personal_vehicle -->
+  <test name="profile.TC017_profile_quizzes">
+    <classes>
+      <class name="profile.TC017_profile_quizzes"/>
+    </classes>
+  </test> <!-- profile.TC017_profile_quizzes -->
+  <test name="profile.TC018_profile_bids">
+    <classes>
+      <class name="profile.TC018_profile_bids"/>
+    </classes>
+  </test> <!-- profile.TC018_profile_bids -->
+  <test name="profile.TC019_profile_detail_marital_status_single">
+    <classes>
+      <class name="profile.TC019_profile_detail_marital_status_single"/>
+    </classes>
+  </test> <!-- profile.TC019_profile_detail_marital_status_single -->
+  <test name="profile.TC020_profile_sportsq">
+    <classes>
+      <class name="profile.TC020_profile_sportsq"/>
+    </classes>
+  </test> <!-- profile.TC020_profile_sportsq -->
+  <test name="profile.TC021_profile_How_To_Videos">
+    <classes>
+      <class name="profile.TC021_profile_How_To_Videos"/>
+    </classes>
+  </test> <!-- profile.TC021_profile_How_To_Videos -->
+  <test name="profile.TC022_profile_notifications_setting">
+    <classes>
+      <class name="profile.TC022_profile_notifications_setting"/>
+    </classes>
+  </test> <!-- profile.TC022_profile_notifications_setting -->
+  <test name="profile.TC023_profile_faq">
+    <classes>
+      <class name="profile.TC023_profile_faq"/>
+    </classes>
+  </test> <!-- profile.TC023_profile_faq -->
+  <test name="profile.TC024_profile_feedback">
+    <classes>
+      <class name="profile.TC024_profile_feedback"/>
+    </classes>
+  </test> <!-- profile.TC024_profile_feedback -->
+  <test name="profile.TC025_profile_legal">
+    <classes>
+      <class name="profile.TC025_profile_legal"/>
+    </classes>
+  </test> <!-- profile.TC025_profile_legal -->
+  <test name="profile.TC002_profile_edit_button(failed)">
+    <classes>
+      <class name="profile.TC001_profile_navigation">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+          <include name="profile_navigation_test"/>
+        </methods>
+      </class> <!-- profile.TC001_profile_navigation -->
+      <class name="profile.TC017_profile_quizzes">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- profile.TC017_profile_quizzes -->
+      <class name="profile.TC006_profile_detail_valid_first_name">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC006_profile_detail_valid_first_name -->
+      <class name="profile.TC024_profile_feedback">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- profile.TC024_profile_feedback -->
+      <class name="profile.TC013_profile_detail_marital_status_married">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC013_profile_detail_marital_status_married -->
+      <class name="profile.TC005_profile_detail_gallery">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- profile.TC005_profile_detail_gallery -->
+      <class name="profile.TC020_profile_sportsq">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- profile.TC020_profile_sportsq -->
+      <class name="profile.TC004_profile_detail_camera">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- profile.TC004_profile_detail_camera -->
+      <class name="profile.TC002_profile_edit_button">
+        <methods>
+          <include name="profile_edit_button_test"/>
+          <include name="profile_edit_button_test"/>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC002_profile_edit_button -->
+      <class name="profile.TC003_profile_detail_luckycharms">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- profile.TC003_profile_detail_luckycharms -->
+      <class name="profile.TC021_profile_How_To_Videos">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- profile.TC021_profile_How_To_Videos -->
+      <class name="profile.TC018_profile_bids">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC018_profile_bids -->
+      <class name="profile.TC016_profile_detail_personal_vehicle">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- profile.TC016_profile_detail_personal_vehicle -->
+      <class name="profile.TC019_profile_detail_marital_status_single">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC019_profile_detail_marital_status_single -->
+      <class name="profile.TC023_profile_faq">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- profile.TC023_profile_faq -->
+      <class name="profile.TC010_profile_detail_valid_email_id">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC010_profile_detail_valid_email_id -->
+      <class name="profile.TC015_profile_detail_occupation">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- profile.TC015_profile_detail_occupation -->
+      <class name="profile.TC007_profile_detail_valid_last_name">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC007_profile_detail_valid_last_name -->
+      <class name="profile.TC012_profile_detail_edit_gender_male">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC012_profile_detail_edit_gender_male -->
+      <class name="profile.TC014_profile_detail_education">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC014_profile_detail_education -->
+      <class name="profile.TC025_profile_legal">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC025_profile_legal -->
+      <class name="profile.TC008_profile_valid_birthdate">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC008_profile_valid_birthdate -->
+      <class name="profile.TC009_profile_detail_valid_pincode">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- profile.TC009_profile_detail_valid_pincode -->
+      <class name="profile.TC022_profile_notifications_setting">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC022_profile_notifications_setting -->
+      <class name="profile.TC011_profile_detail_edit_gender_feamle">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC011_profile_detail_edit_gender_feamle -->
+    </classes>
+  </test> <!-- profile.TC002_profile_edit_button(failed) -->
+  <test name="profile.TC005_profile_detail_gallery(failed)">
+    <classes>
+      <class name="profile.TC001_profile_navigation">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+          <include name="profile_navigation_test"/>
+        </methods>
+      </class> <!-- profile.TC001_profile_navigation -->
+      <class name="profile.TC017_profile_quizzes">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- profile.TC017_profile_quizzes -->
+      <class name="profile.TC006_profile_detail_valid_first_name">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC006_profile_detail_valid_first_name -->
+      <class name="profile.TC024_profile_feedback">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- profile.TC024_profile_feedback -->
+      <class name="profile.TC013_profile_detail_marital_status_married">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC013_profile_detail_marital_status_married -->
+      <class name="profile.TC005_profile_detail_gallery">
+        <methods>
+          <include name="profile_luckycharms_test"/>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- profile.TC005_profile_detail_gallery -->
+      <class name="profile.TC020_profile_sportsq">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- profile.TC020_profile_sportsq -->
+      <class name="profile.TC004_profile_detail_camera">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- profile.TC004_profile_detail_camera -->
+      <class name="profile.TC002_profile_edit_button">
+        <methods>
+          <include name="profile_edit_button_test"/>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC002_profile_edit_button -->
+      <class name="profile.TC003_profile_detail_luckycharms">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- profile.TC003_profile_detail_luckycharms -->
+      <class name="profile.TC021_profile_How_To_Videos">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- profile.TC021_profile_How_To_Videos -->
+      <class name="profile.TC018_profile_bids">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC018_profile_bids -->
+      <class name="profile.TC016_profile_detail_personal_vehicle">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- profile.TC016_profile_detail_personal_vehicle -->
+      <class name="profile.TC019_profile_detail_marital_status_single">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC019_profile_detail_marital_status_single -->
+      <class name="profile.TC023_profile_faq">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- profile.TC023_profile_faq -->
+      <class name="profile.TC010_profile_detail_valid_email_id">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC010_profile_detail_valid_email_id -->
+      <class name="profile.TC015_profile_detail_occupation">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- profile.TC015_profile_detail_occupation -->
+      <class name="profile.TC007_profile_detail_valid_last_name">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC007_profile_detail_valid_last_name -->
+      <class name="profile.TC012_profile_detail_edit_gender_male">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC012_profile_detail_edit_gender_male -->
+      <class name="profile.TC014_profile_detail_education">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC014_profile_detail_education -->
+      <class name="profile.TC025_profile_legal">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC025_profile_legal -->
+      <class name="profile.TC008_profile_valid_birthdate">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC008_profile_valid_birthdate -->
+      <class name="profile.TC009_profile_detail_valid_pincode">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- profile.TC009_profile_detail_valid_pincode -->
+      <class name="profile.TC022_profile_notifications_setting">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC022_profile_notifications_setting -->
+      <class name="profile.TC011_profile_detail_edit_gender_feamle">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC011_profile_detail_edit_gender_feamle -->
+    </classes>
+  </test> <!-- profile.TC005_profile_detail_gallery(failed) -->
+  <test name="profile.TC009_profile_detail_valid_pincode(failed)">
+    <classes>
+      <class name="profile.TC001_profile_navigation">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+          <include name="profile_navigation_test"/>
+        </methods>
+      </class> <!-- profile.TC001_profile_navigation -->
+      <class name="profile.TC017_profile_quizzes">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- profile.TC017_profile_quizzes -->
+      <class name="profile.TC006_profile_detail_valid_first_name">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC006_profile_detail_valid_first_name -->
+      <class name="profile.TC024_profile_feedback">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- profile.TC024_profile_feedback -->
+      <class name="profile.TC013_profile_detail_marital_status_married">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC013_profile_detail_marital_status_married -->
+      <class name="profile.TC005_profile_detail_gallery">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- profile.TC005_profile_detail_gallery -->
+      <class name="profile.TC020_profile_sportsq">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- profile.TC020_profile_sportsq -->
+      <class name="profile.TC004_profile_detail_camera">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- profile.TC004_profile_detail_camera -->
+      <class name="profile.TC002_profile_edit_button">
+        <methods>
+          <include name="profile_edit_button_test"/>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC002_profile_edit_button -->
+      <class name="profile.TC003_profile_detail_luckycharms">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- profile.TC003_profile_detail_luckycharms -->
+      <class name="profile.TC021_profile_How_To_Videos">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- profile.TC021_profile_How_To_Videos -->
+      <class name="profile.TC018_profile_bids">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC018_profile_bids -->
+      <class name="profile.TC016_profile_detail_personal_vehicle">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- profile.TC016_profile_detail_personal_vehicle -->
+      <class name="profile.TC019_profile_detail_marital_status_single">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC019_profile_detail_marital_status_single -->
+      <class name="profile.TC023_profile_faq">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- profile.TC023_profile_faq -->
+      <class name="profile.TC010_profile_detail_valid_email_id">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC010_profile_detail_valid_email_id -->
+      <class name="profile.TC015_profile_detail_occupation">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- profile.TC015_profile_detail_occupation -->
+      <class name="profile.TC007_profile_detail_valid_last_name">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC007_profile_detail_valid_last_name -->
+      <class name="profile.TC012_profile_detail_edit_gender_male">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC012_profile_detail_edit_gender_male -->
+      <class name="profile.TC014_profile_detail_education">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC014_profile_detail_education -->
+      <class name="profile.TC009_profile_detail_valid_pincode">
+        <methods>
+          <include name="setUp"/>
+          <include name="quit"/>
+          <include name="profile_gallery_test"/>
+        </methods>
+      </class> <!-- profile.TC009_profile_detail_valid_pincode -->
+      <class name="profile.TC025_profile_legal">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC025_profile_legal -->
+      <class name="profile.TC008_profile_valid_birthdate">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC008_profile_valid_birthdate -->
+      <class name="profile.TC022_profile_notifications_setting">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC022_profile_notifications_setting -->
+      <class name="profile.TC011_profile_detail_edit_gender_feamle">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- profile.TC011_profile_detail_edit_gender_feamle -->
+    </classes>
+  </test> <!-- profile.TC009_profile_detail_valid_pincode(failed) -->
+</suite> <!-- Failed suite [Profile_Suite] -->

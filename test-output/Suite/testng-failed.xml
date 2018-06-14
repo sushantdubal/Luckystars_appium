@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="draw.TC001_Draw_correctAnswer">
+    <classes>
+      <class name="draw.TC001_Draw_correctAnswer"/>
+    </classes>
+  </test> <!-- draw.TC001_Draw_correctAnswer -->
+  <test name="draw.TC002_Draw_IncorrectAnswer">
+    <classes>
+      <class name="draw.TC002_Draw_IncorrectAnswer"/>
+    </classes>
+  </test> <!-- draw.TC002_Draw_IncorrectAnswer -->
+  <test name="draw.TC001_Draw_correctAnswer(failed)">
+    <classes>
+      <class name="draw.TC001_Draw_correctAnswer">
+        <methods>
+          <include name="quit"/>
+          <include name="partcipateDraw"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- draw.TC001_Draw_correctAnswer -->
+      <class name="draw.TC002_Draw_IncorrectAnswer">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- draw.TC002_Draw_IncorrectAnswer -->
+    </classes>
+  </test> <!-- draw.TC001_Draw_correctAnswer(failed) -->
+  <test name="draw.TC002_Draw_IncorrectAnswer(failed)">
+    <classes>
+      <class name="draw.TC001_Draw_correctAnswer">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- draw.TC001_Draw_correctAnswer -->
+      <class name="draw.TC002_Draw_IncorrectAnswer">
+        <methods>
+          <include name="signIn"/>
+          <include name="quit"/>
+          <include name="partcipateDraw"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- draw.TC002_Draw_IncorrectAnswer -->
+    </classes>
+  </test> <!-- draw.TC002_Draw_IncorrectAnswer(failed) -->
+</suite> <!-- Failed suite [Suite] -->

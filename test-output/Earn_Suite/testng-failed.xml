@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Earn_Suite]">
+  <test name="earn.TC001_earn_navigation">
+    <classes>
+      <class name="earn.TC001_earn_navigation"/>
+    </classes>
+  </test> <!-- earn.TC001_earn_navigation -->
+  <test name="earn.TC002_share_now">
+    <classes>
+      <class name="earn.TC002_share_now"/>
+    </classes>
+  </test> <!-- earn.TC002_share_now -->
+  <test name="earn.TC003_social_links_exists">
+    <classes>
+      <class name="earn.TC003_social_links_exists"/>
+    </classes>
+  </test> <!-- earn.TC003_social_links_exists -->
+</suite> <!-- Failed suite [Earn_Suite] -->

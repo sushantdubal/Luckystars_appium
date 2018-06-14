@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="quiz.TC001_quizParticipation">
+	<classes>
+		<class name="quiz.TC001_quizParticipation" />
+	</classes>
+</test>
+
+ <test name="quiz.TC002_quizCheckYourAnswers">
+	<classes>
+		<class name="quiz.TC002_quizCheckYourAnswers" />
+	</classes>
+</test>
+
+ <test name="quiz.TC003_quizLeaderBoard">
+	<classes>
+		<class name="quiz.TC003_quizLeaderBoard" />
+	</classes>
+</test>
+
+ <test name="quiz.TC004_quizInsufficientCoins">
+	<classes>
+		<class name="quiz.TC004_quizInsufficientCoins" />
+	</classes>
+</test>
+</suite> <!-- Suite -->
