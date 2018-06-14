@@ -147,7 +147,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<!-- TestNG suite XML files -->
-						<suiteXmlFile>testng_profile.xml</suiteXmlFile>
+						<suiteXmlFile>testng_earn.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
