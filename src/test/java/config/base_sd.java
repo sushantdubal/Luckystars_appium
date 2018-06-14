@@ -63,14 +63,14 @@ public class base_sd
 		//True (default): the file will be replaced with brand new markup, and all existing data will be lost. Use this option to create a brand new report
 		//False: existing data will remain, new tests will be appended to the existing report. If the the supplied path does not exist, a new file will be created.
 
-		report=new ExtentReports("/Users/git/Automation/Luckystars_android/Extent_report_output_by_sushant/Ls_android_coin_test_report.html", false);
+		report=new ExtentReports("/Users/rahul/Luckystars_appium/Ls_android_coin_test_report.html", false);
 	
 		//extent.addSystemInfo("Environment","Environment Name")
 		report.addSystemInfo("Project Name", "Luckystars").addSystemInfo("Environment", "Android").addSystemInfo("User Name", "QA Team");
 		//loading the external xml file (i.e., extent-config.xml) which was placed under the base directory
 		//You could find the xml file below. Create xml file in your project and copy past the code mentioned below
 
-		report.loadConfig(new File("/Users/git/Automation/Luckystars_android/extent-config.xml"));
+		report.loadConfig(new File("/Users/rahul/Luckystars_appium/extent-config.xml"));
 		//report.loadConfig(new File("/Users/apple/luckystars_android/Luckystars_android/extent-config.xml"));
 
 
